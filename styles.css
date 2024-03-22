@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+div ul {
+     list-style-type: none;
+}
+
+div ul li {
+    display: inline;
+    margin: 185px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 18%;
+    margin: 10px;
+}
+
+.book img {
+    width: 80%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

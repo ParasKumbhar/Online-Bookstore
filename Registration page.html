@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 300px;
+            margin: 100px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <h2>Registration</h2>
+        <form action="Book.html" method="post">
+            <input type="text" name="Fullname" placeholder="Fullname" required><br>
+            <input type="text" name="email" placeholder="Email" required><br>
+            <input type="Password" name="newpassword" placeholder="New Password" required><br>
+            <input type="Password" name="confirmpassword" placeholder="Confirm Password" required><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
